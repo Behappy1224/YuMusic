@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(44, 41, 41);
+}
+body{
+    animation:transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+.box{
+    
+    border-radius: 15px;
+   height: 90vh;
+   background-image: url(image/Alan.jpg);
+   background-position: right;
+   background-size: cover;
+   
+}
+.songList{
+    display:block;
+    
+}
+.song{
+    padding-top: 10px;
+}
+.song1{
+    padding-top: 10px;
+}
+
+.bi-reply{
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.727);
+    font-size: 4.2rem;
+    transition: .3s linear;
+}
+.bi-reply:hover{
+    color:white;
+}
+h1{ 
+    padding-left: 5px;
+    font-family: "Poppins",Arial,sans-serif;
+    font-weight: 800;
+    font-size: 2.2rem;
+    padding-top: 5px;
+}
+.titletest{
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 430px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color: white;
+    border:5px solid rgba(80, 80, 138, 0.955);
+    min-height: 50px;
+}
+.object{
+    position: fixed;
+    display: flex;
+}
+ .image{
+    position: absolute;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    height: 45px;
+}
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+p{
+    color: black;
+    margin-left: 90px;
+    margin-top: 10px;
+    display: inline;
+    font-family: "Poppins",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.music{
+    margin-left: 280px;
+    margin-top: 5px;
+    display: inline;
+   height: 35px;
+} 
+.tt{
+    min-height: 45px;
+}
+
+.test{
+    margin-left: 650px;
+    margin-right: 50px;
+    border-radius: 23px;
+    color: white;
+    background-color: rgb(203, 203, 203);
+    
+    min-height: 45px;
+}
+p{
+    text-align: right;
+    padding-right: 50px;
+}
+
